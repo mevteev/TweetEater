@@ -1,4 +1,4 @@
-package org.jewtiejew.tweeteater.engine.producer.impl;
+package org.jewtiejew.tweeteater.engine.local;
 
 import org.junit.Before;
 import org.junit.Test;

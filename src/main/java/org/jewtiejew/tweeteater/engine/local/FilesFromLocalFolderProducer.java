@@ -1,4 +1,4 @@
-package org.jewtiejew.tweeteater.engine.producer.impl;
+package org.jewtiejew.tweeteater.engine.local;
 
 import org.jewtiejew.tweeteater.engine.producer.Producer;
 
