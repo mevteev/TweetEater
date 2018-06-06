@@ -25,4 +25,4 @@
 /.nb-gradle/
 
 ### Twitter ###
-/src/resources/twitter4j.properties
+src/main/properties/twitter4j.properties
