@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div th:if="${isRunning}">
+        <a href="stop">Stop reader</a>
+    </div>
+    <div th:unless="${isRunning}">
+        <i>Reader stopped</i><br/>
+        <a href="start">Start reader</a>
+    </div>
+
+    <table>
+        <tr th:each="element : ${keywords}">
+            <td th:text="${element.key}">keyvalue</td>
+            <td th:each="word : ${element.value}" th:text="${word}">Word</td>
+        </tr>
+    </table>
+
+</body>
+</html>
