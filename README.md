@@ -12,15 +12,10 @@ http://localhost:8000
 Add <i>twitter4j.properties</i> file to resource folder with the following content:
 
 debug=false
-
 oauth.consumerKey=<i>your consumer key</i>
-
 oauth.consumerSecret=<i>your consumer secret</i>
-
 oauth.accessToken=<i>your access token</i>
-
 oauth.accessTokenSecret=<i>your access token secret</i>
-
 twitter4j.loggerFactory=twitter4j.NullLoggerFactory
 
 
